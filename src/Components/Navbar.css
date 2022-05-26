@@ -61,7 +61,28 @@ nav ul li a {
     }
 
     nav ul {
-        width: 100%;
+        width: 90%;
     }
+
+    nav ul li { 
+        width: 40rem;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+        padding: 1.4rem 1rem;
+    }
+
+
+    .nav ul li a:hover {
+        font-size: 1rem;
+        font-family: lato, serif;
+        padding: 1.3rem 1rem;
+    }
+
+
+
+
+
 }
 
