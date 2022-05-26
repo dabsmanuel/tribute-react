@@ -6,9 +6,10 @@ html {
     scroll-behavior: smooth;
 }
 
-* {
+*, *::after, *::before {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 nav{
@@ -21,21 +22,15 @@ nav{
     width: 100%;
 }
 
-nav ul {
+nav .nav_menu {
     display: flex;
     align-items: center;
-    justify-content: center;  
-    width: 50%;
+    justify-content: space-around; 
+    gap: 4rem; 
 }
-
-.nav {
-    width: 100%;
-}
-
 
 nav ul li {
     list-style: none;  
-    width: 12rem;
 }
 
 nav ul li a {
@@ -43,8 +38,9 @@ nav ul li a {
     color: #F2F2F2;
     font-family: 'Lato', sans-serif;
     font-size: 1.12rem;
-    padding: 1.32rem 1.25rem 1.12rem 1.62rem;
 }
+
+/* 
 
 .nav ul li a:hover {
     background-color: #8C111B;
@@ -53,11 +49,26 @@ nav ul li a {
     padding: 1.25rem 1.25rem 1.12rem 1.62rem;
     font-family: Lora, serif;
     font-size: 22px;
+} */
+
+
+.nav__toggler > div {
+    width: 15px;
+    height: 0px;
+    color: #F2F2F2;
+    margin: 5px;
+    padding: 15px;
+    display: block;
+
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
     .nav {
         width: 100%;
+    }
+
+    nav {
+        margin: 0 auto;
     }
 
     nav ul {
@@ -84,5 +95,5 @@ nav ul li a {
 
 
 
-}
+} */
 
