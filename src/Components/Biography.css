@@ -47,23 +47,27 @@
 
     .bio, .bio-pics {
         position: relative;
-        left: 17%;
+        /* left: 17%; */
     }
 
     .bio h2 {
         position: relative;
         top: -4.5rem;
+        left: 30%;
     }
 
     .bio p {
         position: relative;
         top: -3rem;
+        width: 80%;
+        text-align: justify;
+        text-justify: inter-word;
     }
 
     .bio-pics img{
         position: relative;
         top: -3rem;
-        width: 65%;
+        width: 70%;
     }
 }
 
