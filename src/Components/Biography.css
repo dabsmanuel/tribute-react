@@ -2,7 +2,7 @@
     display: flex;
     background-color: #1D1E26;
     color: hsl(0, 0%, 95%);
-    height: 100vh;
+    height: auto;
 }
 
 .bio {
@@ -37,10 +37,16 @@
 }
 
 @media screen and (max-width: 900px) and (max-width: 600px){
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
     .biography {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        height: 100vh;
+        height: auto;
+
     } 
 
     .bio, .bio-pics {
@@ -50,7 +56,7 @@
     .bio h2 {
         position: relative;
         top: -1.5rem;
-        left: 30%;
+        left: 25%;
     }
 
     .bio p {
@@ -59,16 +65,16 @@
         width: 85%;
         text-align: justify;
         text-justify: inter-word;
-        font-size: 12px;
-        display: grid;
-        place-items: center;
+        font-size: 16px;
+        left: -2%;
     }
 
     .bio-pics {
         /* top: -3rem; */
-        width: 50%;
-        left: 35%;
-        margin-bottom: 1rem;
+        width: 80%;
+        left: 25%;
+        top: 6rem ;
+        padding-bottom: 3rem;
     }
 }
 
