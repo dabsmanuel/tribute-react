@@ -4,7 +4,7 @@ import bioPics from '../images/biography.png';
 
 export default function Biography() {
   return (
-    <div id="biography">
+    <div id="biography" className='biography-section'>
       <div className="biography">
         <div className="bio">
           <h2>Biography</h2>

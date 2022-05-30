@@ -9,7 +9,7 @@ export default function HeaderText() {
   return (
     <div className="headertext">
       <div className="text">
-        <h1>Elis Regina</h1>
+        <h1 className='hover'>Elis Regina</h1>
         <p>
           One of the most ferociously talented singers to emerge from Brazil.
         </p>

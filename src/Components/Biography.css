@@ -22,52 +22,53 @@
     width: 65.3%;
     text-align: justify;
     text-justify: inter-word;
+    margin-bottom: 1rem;
 }
 
 .bio-pics {
     width: 100%;
     position: relative;
     top: 20%;
+    margin-bottom: 5.7rem;
 }
 
 .bio-pics img {
     width: 70%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) and (max-width: 600px){
     .biography {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        height: 150vh;
+        height: 100vh;
     } 
-
-    body {
-        overflow-x: hidden;
-    }
 
     .bio, .bio-pics {
         position: relative;
-        /* left: 17%; */
     }
 
     .bio h2 {
         position: relative;
-        top: -4.5rem;
+        top: -1.5rem;
         left: 30%;
     }
 
     .bio p {
         position: relative;
-        top: -3rem;
-        width: 80%;
+        top: -1rem;
+        width: 85%;
         text-align: justify;
         text-justify: inter-word;
+        font-size: 12px;
+        display: grid;
+        place-items: center;
     }
 
-    .bio-pics img{
-        position: relative;
-        top: -3rem;
-        width: 70%;
+    .bio-pics {
+        /* top: -3rem; */
+        width: 50%;
+        left: 35%;
+        margin-bottom: 1rem;
     }
 }
 

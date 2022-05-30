@@ -15,14 +15,30 @@
     position: relative;
     color: #F2F2F2;
     top: 8rem;
-    width: 30%;
+    /* width: 30%; */
+    height: 50vh;
     /* z-index: 11111; */
 }
 
-.headertext .text h1 {
+.hover {
+    --b: 0.1em;   /* the thickness of the line */
+    --c: #8C111B; /* the color */
+  
     font-family: Lora, serif;
     text-shadow: 2px 2px #8C111B;
     font-size: 3rem;
+    color: #fff;
+    padding-block: var(--b);
+    background: 
+        linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+        linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+.hover:hover {
+  --_p: 100%;
+  --_s: .3s;
 }
 
 .headertext .text p {
@@ -34,9 +50,15 @@
 .icon a {
     color: #E5E5E5;
     font-size: 2rem;
-    position: relative;
-    top: 5rem;
-    /* z-index: inherit; */
 }
 
+@media screen and (max-width: 900px) {
+    .headertext .text {
+        position: relative;
+        color: #F2F2F2;
+        width: 60%;
+    }
+
+
+}
 
