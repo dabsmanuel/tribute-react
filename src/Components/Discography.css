@@ -1,0 +1,16 @@
+.discograph {
+    color: #F2F2F2;
+}
+
+.heading {
+    font-family: lora, serif;
+    display: grid;
+    place-items: center;
+}
+
+.albums {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr);
+    gap: 0.6rem; */
+    place-items: center;
+}

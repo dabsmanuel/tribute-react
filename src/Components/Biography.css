@@ -1,13 +1,16 @@
 .biography {
     display: flex;
-    background-color: #1D1E26;
+    background: #1D1E26;
     color: hsl(0, 0%, 95%);
     height: auto;
+    padding-bottom: 5rem;
+    
 }
+
 
 .bio {
     position: relative;
-    top: 25%;
+    top: 8rem;
     left: 10%;
 }
 
@@ -29,7 +32,7 @@
 .bio-pics {
     width: 100%;
     position: relative;
-    top: 20%;
+    top: 5rem;
     margin-bottom: 5.7rem;
 }
 
