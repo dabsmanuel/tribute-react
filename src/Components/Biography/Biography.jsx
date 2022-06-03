@@ -1,6 +1,6 @@
 import React from 'react';
 import './Biography.css';
-import bioPics from '../images/biography.png';
+import bioPics from '../../Assets/biography.png';
 
 export default function Biography() {
   return (

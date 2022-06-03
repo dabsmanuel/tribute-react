@@ -1,5 +1,6 @@
 import React from 'react';
 import DiscoText from './DiscoText';
+import Albumlist from './Albumlist';
 
 const Discography = (props) => {
   return (
