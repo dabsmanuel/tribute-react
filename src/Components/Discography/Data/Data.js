@@ -1,8 +1,18 @@
-import React from 'react'
+import albumOne from "../../../Assets/image 5.png";
+import albumTwo from "../../../Assets/image 5 (1).png";
+import albumThree from "../../../Assets/image 5 (2).png";
+import albumFour from "../../../Assets/image 5 (3).png";
+import albumFive from "../../../Assets/image 5 (4).png";
+import albumSix from "../../../Assets/image 5 (5).png";
+import Discography from "../Discography";
 
-export default function Albumlist() {
 
-    const albumOne = [
+const albums = [
+  {
+    id: 1,
+    title: "Viva a Brotolândia",
+    img: albumOne,
+    tracks: [
       "Dá Sorte",
       "Sonhando",
       "Murmúrio",
@@ -15,9 +25,14 @@ export default function Albumlist() {
       "As Coisas que Eu Gosto",
       "Mesmo de Mentira",
       "Amor Amor",
-    ];
+    ],
+  },
 
-    const albumTwo = [
+  {
+    id: 2,
+    title: "Poema de Amor",
+    img: albumTwo,
+    tracks: [
       "Poema",
       "Pororó-popó",
       "Dá-me um beijo",
@@ -30,9 +45,14 @@ export default function Albumlist() {
       "Canção de enganar",
       "Confissão",
       "Podes voltar",
-    ];
+    ],
+  },
 
-    const albumThree = [
+  {
+    id: 3,
+    title: "O Bem do Amor",
+    img: albumThree,
+    tracks: [
       "Alô Saudade",
       "Sem Teu Amor",
       "Saudade e Carinho",
@@ -45,9 +65,14 @@ export default function Albumlist() {
       "Meus Olhos",
       "Mundo de Paz",
       "O Bem do Amor",
-    ];
+    ],
+  },
 
-    const albumFour = [
+  {
+    id: 4,
+    title: "Samba eu Canto Assim",
+    img: albumFour,
+    tracks: [
       "Reza",
       "Menino das Laranjas",
       "Por um Amor Maior",
@@ -60,9 +85,14 @@ export default function Albumlist() {
       "Eternidade",
       "Preciso Aprender a Ser Só",
       "Último Canto",
-    ];
+    ],
+  },
 
-    const albumFive = [
+  {
+    id: 5,
+    title: "O Fino do Fino",
+    img: albumFive,
+    tracks: [
       "Zambi",
       "Aruanda",
       "Canção do Amanhecer",
@@ -75,9 +105,14 @@ export default function Albumlist() {
       "Amor Demais",
       "Samba Novo",
       "Chegança",
-    ];
+    ],
+  },
 
-    const albumSix = [
+  {
+    id: 6,
+    title: "Dois Na Bossa N°2",
+    img: albumSix,
+    tracks: [
       "Pot-Pourri",
       "Canto De Ossanha",
       "Tristeza",
@@ -89,13 +124,8 @@ export default function Albumlist() {
       "Sonho De Um Carnaval",
       "Amor Até O Fim",
       "Santuário Do Morro",
-    ];
+    ]
+  },  
+];
 
-    const Albumlistone = albumOne.map(listOne => <li>{listOne}</li>)
-    const Albumlisttwo = albumTwo.map((listTwo) => <li>{listTwo}</li>);
-    const Albumlistthree = albumThree.map(listThree => <li>{listThree}</li>)
-    const Albumlistfour = albumFour.map(listFour => <li>{listFour}</li>)
-    const Albumlistfive = albumFive.map((listFive) => <li>{listFive}</li>);
-    const Albumlistsix = albumSix.map((listSix) => <li>{listSix}</li>);
-
-}
+export default albums
