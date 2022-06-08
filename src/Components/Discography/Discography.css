@@ -1,16 +1,116 @@
 .discograph {
     color: #F2F2F2;
+    display: grid;
+    position: relative;
+    top: 1rem;
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 8rem;
 }
 
-.heading {
+.discograph h1 {
     font-family: lora, serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.discography-grid {
+    margin-top: 4rem;
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem 1.5rem;
     place-items: center;
 }
 
-.albums {
-    display: grid;
-    /* grid-template-columns: repeat(3, 1fr);
-    gap: 0.6rem; */
-    place-items: center;
+.albumCard {
+    display: flex;
+    gap: 2rem;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border: rgba(0, 0, 0, 0.25);
+    padding: 0.3rem;
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
 }
+
+.albumPhoto {
+    width: 70%;
+}
+
+.albumPhoto img {
+    width: 100%;
+}
+
+.albumPhoto p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
+}
+
+.albumCard:hover {
+    filter: brightness(70%);
+    transition: 0.2s ease-in-out;
+}
+
+.album-list {
+    width: 100%;
+}
+
+.album-list > h3 {
+    font-size: 18px;
+    font-family: lato;
+    position: relative;
+    left: -0.7rem;
+    top: -5px;
+}
+
+.album-list ol {
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 14px;
+}
+
+.link {
+    text-align: center;
+    position: relative;
+    top: 3rem;
+}
+
+.link a {
+    color: #F2F2F2;
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 17px;
+}
+
+
+@media screen and (max-width: 975px) {
+    .discograph {
+        width: 100%;
+        position: relative;
+        top: 2rem;
+    }
+
+    .discograph h1 {
+        font-family: lora, serif;
+        font-size: 2rem;
+        text-align: center;
+        position: relative;
+        bottom: 3rem;
+    }
+    .discography-grid {
+        margin-top: 4rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1.5rem 1.5rem;
+        place-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+
+

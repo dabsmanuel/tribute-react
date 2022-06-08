@@ -9,6 +9,7 @@
     background-position: center;
     background-size: cover;
     object-fit: fill;
+    position: relative;
 }
 
 .headertext .text {
@@ -17,7 +18,6 @@
     top: 8rem;
     /* width: 30%; */
     height: 50vh;
-    /* z-index: 11111; */
     display: grid;
     place-items: center;
 }

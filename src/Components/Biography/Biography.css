@@ -2,7 +2,6 @@
     display: flex;
     background: #1D1E26;
     color: hsl(0, 0%, 95%);
-    height: auto;
     padding-bottom: 5rem;
     
 }
@@ -29,6 +28,8 @@
     font-family: lato, serif;
 }
 
+/* biograpy pix */
+
 .bio-pics {
     width: 100%;
     position: relative;
@@ -40,17 +41,14 @@
     width: 70%;
 }
 
-@media screen and (max-width: 900px) and (max-width: 600px){
+@media screen and (max-width: 975px){
 
     * {
         padding: 0;
         margin: 0;
     }
     .biography {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        height: auto;
-
+        display: block;
     } 
 
     .bio, .bio-pics {
@@ -59,8 +57,8 @@
 
     .bio h2 {
         position: relative;
-        top: -1.5rem;
-        left: 25%;
+        top: -2rem;
+        left: 35%;
     }
 
     .bio p {
@@ -74,11 +72,11 @@
     }
 
     .bio-pics {
-        /* top: -3rem; */
-        width: 80%;
-        left: 25%;
-        top: 6rem ;
-        padding-bottom: 3rem;
+        width: 90%;
+        left: 17%;
+        /* top: 6rem ; */
+        padding: 4rem;
+        height: auto;
     }
 }
 

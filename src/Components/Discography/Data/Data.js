@@ -4,14 +4,13 @@ import albumThree from "../../../Assets/image 5 (2).png";
 import albumFour from "../../../Assets/image 5 (3).png";
 import albumFive from "../../../Assets/image 5 (4).png";
 import albumSix from "../../../Assets/image 5 (5).png";
-import Discography from "../Discography";
-
 
 const albums = [
   {
     id: 1,
-    title: "Viva a Brotolândia",
     img: albumOne,
+    year: "Album - 1961",
+    title: "Viva a Brotolândia",
     tracks: [
       "Dá Sorte",
       "Sonhando",
@@ -30,8 +29,9 @@ const albums = [
 
   {
     id: 2,
-    title: "Poema de Amor",
     img: albumTwo,
+    year: "Album - 1962",
+    title: "Poema de Amor",
     tracks: [
       "Poema",
       "Pororó-popó",
@@ -50,8 +50,9 @@ const albums = [
 
   {
     id: 3,
-    title: "O Bem do Amor",
     img: albumThree,
+    year: "Album - 1962",
+    title: "O Bem do Amor",
     tracks: [
       "Alô Saudade",
       "Sem Teu Amor",
@@ -70,8 +71,9 @@ const albums = [
 
   {
     id: 4,
-    title: "Samba eu Canto Assim",
     img: albumFour,
+    year: "Album - 1965",
+    title: "Samba eu Canto Assim",
     tracks: [
       "Reza",
       "Menino das Laranjas",
@@ -90,8 +92,9 @@ const albums = [
 
   {
     id: 5,
-    title: "O Fino do Fino",
     img: albumFive,
+    year: "Album - 1965",
+    title: "O Fino do Fino",
     tracks: [
       "Zambi",
       "Aruanda",
@@ -110,8 +113,9 @@ const albums = [
 
   {
     id: 6,
-    title: "Dois Na Bossa N°2",
     img: albumSix,
+    year: "Album - 1966",
+    title: "Dois Na Bossa N°2",
     tracks: [
       "Pot-Pourri",
       "Canto De Ossanha",
@@ -124,8 +128,8 @@ const albums = [
       "Sonho De Um Carnaval",
       "Amor Até O Fim",
       "Santuário Do Morro",
-    ]
-  },  
+    ],
+  },
 ];
 
-export default albums
+export default albums;
