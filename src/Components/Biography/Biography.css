@@ -41,7 +41,7 @@
     width: 70%;
 }
 
-@media screen and (max-width: 975px){
+@media screen and (max-width: 768px){
 
     * {
         padding: 0;

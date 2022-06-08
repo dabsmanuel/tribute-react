@@ -68,14 +68,36 @@
     .headertext .text {
         position: relative;
         color: #F2F2F2;
-        width: 60%;
+        width: 70%;
     }
 
     .text p {
         position: relative;
         top: 1rem;
     }
+}
 
+@media screen and (max-width: 375px) {
+    .headertext .text {
+        color: #F2F2F2;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
+    .headertext h1 {
+        width: 100%;
+    }
+
+    .headertext p{
+        position: relative;
+        left: 1rem;
+    }
+
+    .headertext {
+        height: 92vh;
+    }
 }
 
