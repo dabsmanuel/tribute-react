@@ -1,79 +1,82 @@
 .biography {
-    display: flex;
-    background: #1D1E26;
-    color: hsl(0, 0%, 95%);
-    padding-bottom: 5rem;
-    
+  display: flex;
+  background: #1d1e26;
+  color: hsl(0, 0%, 95%);
+  padding-bottom: 5rem;
+}
+
+.biography-section {
+  height: auto;
+  width: 90%;
 }
 
 .bio {
-    position: relative;
-    top: 8rem;
-    left: 10%;
+  position: relative;
+  top: 8rem;
+  left: 10%;
 }
 
 .bio h2 {
-    position: relative;
-    left: 20%;
-    top: -1rem;
-    font-family: lora, serif;
+  position: relative;
+  left: 20%;
+  top: -1rem;
+  font-family: lora, serif;
 }
 
 .bio p {
-    width: 65.3%;
-    text-align: justify;
-    text-justify: inter-word;
-    margin-bottom: 1rem;
-    font-family: lato, serif;
+  width: 65.3%;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 1rem;
+  font-family: lato, serif;
 }
 
 .bio-pics {
-    width: 100%;
-    position: relative;
-    top: 5rem;
-    margin-bottom: 5.7rem;
+  width: 100%;
+  position: relative;
+  top: 5rem;
+  margin-bottom: 5.7rem;
 }
 
 .bio-pics img {
-    width: 70%;
-    margin-top: 1rem;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media screen and (max-width: 414) {
-    
+@media screen and (max-width: 975px) {
+  .biography {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .bio,
+  .bio-pics {
+    position: relative;
+  }
+
+  .bio h2 {
+    position: relative;
+    top: -2rem;
+    left: 25%;
+  }
+
+  .bio p {
+    position: relative;
+    top: -1rem;
+    width: 85%;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 16px;
+    left: -2%;
+  }
+
+  .bio-pics {
+    /* width: 90%; */
+    left: 11%;
+    /* top: 6rem ; */
+    padding: 4rem;
+    height: 33vh;
+  }
 }
-
-@media screen and (max-width: 768px){
-    .biography {
-        display: block;
-    } 
-
-    .bio, .bio-pics {
-        position: relative;
-    }
-
-    .bio h2 {
-        position: relative;
-        top: -2rem;
-        left: 25%;
-    }
-
-    .bio p {
-        position: relative;
-        top: -1rem;
-        width: 85%;
-        text-align: justify;
-        text-justify: inter-word;
-        font-size: 16px;
-        left: -2%;
-    }
-
-    .bio-pics {
-        width: 90%;
-        left: 17%;
-        /* top: 6rem ; */
-        padding: 4rem;
-        height: auto;
-    }
-}
-
