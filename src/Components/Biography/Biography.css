@@ -6,7 +6,6 @@
     
 }
 
-
 .bio {
     position: relative;
     top: 8rem;
@@ -28,8 +27,6 @@
     font-family: lato, serif;
 }
 
-/* biograpy pix */
-
 .bio-pics {
     width: 100%;
     position: relative;
@@ -39,14 +36,14 @@
 
 .bio-pics img {
     width: 70%;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 414) {
+    
 }
 
 @media screen and (max-width: 768px){
-
-    * {
-        padding: 0;
-        margin: 0;
-    }
     .biography {
         display: block;
     } 
@@ -58,7 +55,7 @@
     .bio h2 {
         position: relative;
         top: -2rem;
-        left: 35%;
+        left: 25%;
     }
 
     .bio p {
