@@ -87,7 +87,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 60%;
+        width: 84%;
     }
 
     .headertext h1 {
@@ -96,7 +96,8 @@
 
     .headertext p{
         position: relative;
-        /* left: 1rem; */
+        left: 2.6rem;
+        width: 70%;
     }
 
     .headertext {
