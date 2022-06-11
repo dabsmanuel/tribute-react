@@ -1,9 +1,17 @@
 footer {
     background-color: #8C111B;
     padding: 1rem;
+    position: relative;
+    top: 10rem;
+    color: #f1f1f1;
 }
 
 .foot {
     position: relative;
     left: 2rem;
+}
+@media screen (max-width: 978px) {
+    .foot p {
+        text-align: center;
+    }
 }

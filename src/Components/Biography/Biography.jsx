@@ -17,8 +17,7 @@ export default function Biography() {
           </p>
 
           <p>
-            She recorded songs by such musicians as Gilberto Gil, Antônio Carlos
-            Jobim, Milton Nascimento, João Bosco, Aldir Blanc, Chico Buarque,
+            She recorded songs by such musicians as Gilberto Gil, Antônio Carlos Jobim, Milton Nascimento, João Bosco, Aldir Blanc, Chico Buarque,
             Jorge Ben and Caetano Veloso. She had an exciting voice and superb
             intonation, and excelled at up-tempo numbers. Her nickname was
             "Furacão" ("The Hurricane"), and also "Pimentinha" ("Little
