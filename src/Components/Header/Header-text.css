@@ -45,6 +45,8 @@
 .headertext .text p {
     font-family: lato, serif;
     width: 85%;
+    position: relative;
+    left: 2rem;
 }
 
 .icon a {
@@ -94,7 +96,7 @@
 
     .headertext p{
         position: relative;
-        left: 1rem;
+        /* left: 1rem; */
     }
 
     .headertext {
