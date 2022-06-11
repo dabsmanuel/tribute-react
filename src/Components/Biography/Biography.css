@@ -53,16 +53,21 @@
         padding-bottom: 2rem;
     } 
 
+    .bio {
+        width: 83%;
+    }
+
     .bio h2 {
         position: relative;
         top: -3rem;
         font-size: 2rem;
+        text-align: center;
     }
 
     .bio p {
         position: relative;
         top: -1rem;
-        width: 71%;
+        width: 90%;
         text-align: justify;
         padding-bottom: 0.6rem;
         left: -0.4rem;
