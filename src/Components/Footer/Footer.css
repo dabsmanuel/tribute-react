@@ -2,13 +2,18 @@ footer {
     background-color: #8C111B;
     padding: 1rem;
     position: relative;
-    top: 1rem;
+    top: 10rem;
     color: #f1f1f1;
     width: 100vw;
 }
 
 .foot {
     position: relative;
-    left: 2rem;
+    left: 1rem;
 }
+
+.foot p {
+    width: 50%;
+}
+
 
